@@ -4,7 +4,7 @@ import requests
 import sys
 
 # --- CONFIGURATION ---
-# We default to the model you already have installed.
+# Set default to the model you have installed.
 DEFAULT_MODEL = "deepseek-r1:8b" 
 OLLAMA_API_URL = "http://localhost:11434/api/generate"
 
@@ -113,4 +113,5 @@ def main():
         print(analysis)
 
 if __name__ == "__main__":
+
     main()
