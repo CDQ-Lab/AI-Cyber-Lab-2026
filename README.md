@@ -20,4 +20,5 @@ This repository documents the construction and operation of a local, air-gapped 
 * **[x] Architecture Hardening:** Ensured all AI traffic remains localized and air-gapped from public internet exposure, utilizing the VPN for secure remote administration.
 
 ## 📜 Learning Log
+* **Feb 27, 2026:** Established secure remote access architecture. Deployed Open WebUI for a centralized AI dashboard and configured a private VPN tunnel. This allows encrypted, off-site interaction with the local LLM environment without exposing server ports to the public internet.
 * **Feb 14, 2026:** Initial lab initialization. Established local API connectivity between Python and Ollama. Automated first vulnerability scan analysis.
