@@ -10,14 +10,16 @@ This repository documents the construction and operation of a local, air-gapped 
 
 ##  Project Info & Usage
 
-Tool Usage: ai_recon2.0.py
+## Project Info & Usage
+
+### Tool Usage: `ai_recon2.0.py`
 The v2.0 update transforms the script into a full Command Line Interface (CLI) tool. This allows for automation, remote orchestration over VPN/Meshnet, and subnet targeting.
-📋 Available Flags
-Flag	Long Form	Description	Default
-* -t	--target	Required. IP address, Hostname, or CIDR Subnet.	None
-* -p	--ports	Specific ports or ranges (e.g., 80,443 or 1-1024).	Nmap Default
-* -m	--model	The Ollama model to use for the analysis.	deepseek-r1:8b
-* -u	--url	The API endpoint for your Ollama server.	http://localhost:11434/api/generate
+
+### 📋 Available Flags
+* **`-t`, `--target`** : (Required) IP address, Hostname, or CIDR Subnet. (Default: None)
+* **`-p`, `--ports`** : Specific ports or ranges (e.g., `80,443` or `1-1024`). (Default: Nmap Default)
+* **`-m`, `--model`** : The Ollama model to use for the analysis. (Default: `deepseek-r1:8b`)
+* **`-u`, `--url`** : The API endpoint for your Ollama server. (Default: `http://localhost:11434/api/generate`)
 
 ## 
 ### Phase 1: Infrastructure & Automation
