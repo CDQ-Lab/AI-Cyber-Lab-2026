@@ -22,7 +22,8 @@ The v2.0 update transforms the script into a full Command Line Interface (CLI) t
 ## 
 ### Phase 1: Infrastructure & Automation
 - [x] **AI Engine Deployment:** Successfully deployed local LLM server (Ollama) with memory optimization.
-- [x] **Neural-Recon Bridge:** * `ai_recon.py` (v1.0): Initial Proof of Concept.
+- [x] **Neural-Recon Bridge:**
+    * `ai_recon.py` (v1.0): Initial Proof of Concept.
     * `ai_recon2.0.py` (v2.0): **Current Stable Version.** Added CLI flags, subnet scanning, and remote API support.
 - [ ] **RAG Implementation:** (In Progress) Building a "Private Knowledge Base" using AnythingLLM and NIST frameworks.
 
