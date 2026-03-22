@@ -8,8 +8,6 @@ This repository documents the construction and operation of a local, air-gapped 
 * **Orchestration:** Python 3.12 + Custom Automation Scripts
 * **Hardware:** Localized GPU/CPU hybrid environment (Windows/Linux)
 
-##  Project Info & Usage
-
 ## Project Info & Usage
 
 ### Tool Usage: `ai_recon2.0.py`
