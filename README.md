@@ -12,7 +12,7 @@ This repository documents the construction and operation of a local, air-gapped 
 
 Tool Usage: ai_recon2.0.py
 The v2.0 update transforms the script into a full Command Line Interface (CLI) tool. This allows for automation, remote orchestration over VPN/Meshnet, and subnet targeting.
-* **📋 Available Flags
+📋 Available Flags
 Flag	Long Form	Description	Default
 * -t	--target	Required. IP address, Hostname, or CIDR Subnet.	None
 * -p	--ports	Specific ports or ranges (e.g., 80,443 or 1-1024).	Nmap Default
