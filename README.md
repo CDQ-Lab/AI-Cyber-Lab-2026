@@ -12,7 +12,7 @@ This repository documents the construction and operation of a local, air-gapped 
 
 ### Phase 1: Infrastructure & Automation
 * **[x] AI Engine Deployment:** Successfully deployed local LLM server (Ollama) with memory optimization.
-* [x] Neural-Recon Bridge v2.0: Developed ai_recon2.0.py, a professional CLI tool with subnet/CIDR support, XML parsing, and remote API orchestration for distributed intelligence gathering.
+* **[x] Neural-Recon Bridge v2.0: Developed ai_recon2.0.py, a professional CLI tool with subnet/CIDR support, XML parsing, and remote API orchestration for distributed intelligence gathering.
 * **[ ] RAG Implementation:** (In Progress) Building a "Private Knowledge Base" using AnythingLLM and NIST frameworks.
 ### Phase 2: Secure Infrastructure & Remote Access
 * **[x] Secure Tunneling:** Configured a private VPN to establish an encrypted, authenticated tunnel into the lab environment from external networks.
